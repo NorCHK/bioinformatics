@@ -8,7 +8,7 @@ The sequence data was retrieved from the NCBI database on SARS-CoV-2 variants. M
 
 ---
 
-## Technologies Used
+## Tools
 - **Languages**: Python
   
 - **Biological Tools**: 
@@ -23,14 +23,11 @@ The genetic algorithm is used to optimize sequence alignments over generations.
 ### **Methods**
 1. **Selection by Roulette Wheel**:
    - **Steps**:
-     1. Calculate the total fitness of the population.
-     2. Compute the relative fitness for each individual:  
-        \[
-        \text{Relative Fitness} = \frac{\text{Individual Fitness}}{\text{Total Fitness}}
-        \]
-     3. Calculate cumulative probabilities by summing the relative fitness values.
-     4. Generate a random number between 0 and 1.
-     5. Select the first individual whose cumulative probability is greater than or equal to the random number.
+       1_ Calculate the total fitness of the population.
+       2_ Calculate the relative fitness for each individual by dividing their fitness by the total fitness.
+       3_ Calculate the cumulative probability for each individual by summing up the relative fitnesses.
+       4_ Generate a random number between 0 and 1.
+       5_ Select the first individual whose cumulative probability is greater than or equal to the random number.
 
 2. **Uniform Crossover**:
    - Combines parents' sequences at each position with a 50% chance of taking the gene from either parent.
