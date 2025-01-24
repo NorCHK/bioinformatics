@@ -6,20 +6,6 @@ This project includes pairwise sequence alignment (MSA) method, genetic algorith
 The sequence data was retrieved from the NCBI database on SARS-CoV-2 variants. More information can be found at the following link:
 [NCBI SARS-CoV-2 Sequence Data](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=taxid:2697049)
 
-## Features
-1. **Kimura Distance Histogram**:
-   - Visualizes the distribution of Kimura distances between sequence alignments.
-2. **Genetic Algorithm for Optimal Alignment**:
-   - Implements selection, crossover, and mutation to optimize sequence alignments.
-   - Visualizes the fitness evolution across generations.
-3. **Year-Based Analysis**:
-   - Groups alignment scores based on sequence years (e.g., 2020, 2021).
-   - Displays average alignment scores as a histogram.
-4. **Variant-Based Analysis**:
-   - Analyzes and visualizes alignment scores for different variant combinations (e.g., Delta-Omicron).
-5. **Alignment Score Visualization**:
-   - Graphs alignment scores by variant pairs to detect patterns.
-
 ---
 
 ## Technologies Used
@@ -30,9 +16,9 @@ The sequence data was retrieved from the NCBI database on SARS-CoV-2 variants. M
 
 ---
 
-## Genetic Algorithm: Methods  
+## Genetic Algorithm  
 
-The genetic algorithm is used to optimize sequence alignments over generations. Below are the key methods and parameters:
+The genetic algorithm is used to optimize sequence alignments over generations. 
 
 ### **Methods**
 1. **Selection by Roulette Wheel**:
