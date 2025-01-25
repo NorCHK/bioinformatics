@@ -9,7 +9,7 @@ The sequence data was retrieved from the NCBI database on SARS-CoV-2 variants. M
 ---
 
 ## Collaborators:
-This project was developed in collaboration with [LeilaKFZ], who contributed to the analysis and construction of phylogenetic trees for the project.
+This project was developed in collaboration with @LeilaKFZ, who contributed to the analysis and construction of phylogenetic trees for the project.
 
 ---
 
